@@ -48,7 +48,7 @@ define jmxtrans::metrics(
     $statsd               = undef,
     $statsd_root_prefix   = undef,
     $outfile              = undef,
-    $json_dir             = '/etc/jmxtrans',
+    $json_dir             = '/var/lib/jmxtrans',
 )
 {
     include jmxtrans
